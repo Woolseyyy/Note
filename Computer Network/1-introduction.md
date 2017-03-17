@@ -1,6 +1,8 @@
-# Network usage
+#CH1 - Introduction to Computer Network
 
-## 商业应用
+## Network usage
+
+### 商业应用
 
 资源共享 resource sharing
 
@@ -46,7 +48,7 @@
 - 大概就是物联网吧..给所有东西加上传感器并联网
 - RFID(radio frequency Identification)技术
 
-## 移动用户
+### 移动用户
  
  蜂窝网络 无线热点(hotspot)
  固定无线和移动无线的区别
@@ -57,9 +59,9 @@
 传感器网络
 可穿戴计算机
 
-# Network Hardware
+## Network Hardware
 
-## Transmission technology
+### Transmission technology
 Broadcast networks
 
 - Unicasting 单播
@@ -68,7 +70,7 @@ Broadcast networks
 Point-to-point networks（Unicasting 单播）
 注意，点对点链路和广播网络的区别不是行为上的区别，而是技术上的区别。点对点链路的信息在某一条路由上进行传播，而广播网络是所有机器都接到信息，然后自身判断要不要做出反应。广播网络也可以只对一个机器下达指令。这与broadcasting multicasting unicasting的不同有区别。这三种是行为层面上的区别。
 
-## Scale
+### Scale
  ![这里写图片描述](http://img.blog.csdn.net/20170317182703180?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvV29vbHNleXl5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 Personal area networks(PAN)
 
@@ -126,7 +128,7 @@ Internet
 	- 互联网 技术不同、运营者不同的网络连接在一起
 
 
-# Network Software
+## Network Software
 
  ![这里写图片描述](http://img.blog.csdn.net/20170317183530114?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvV29vbHNleXl5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
@@ -169,11 +171,11 @@ Internet
 ![这里写图片描述](http://img.blog.csdn.net/20170317184036464?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvV29vbHNleXl5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 
-# Reference models
+## Reference models
 
-## OSI reference model
+### OSI reference model
  ![这里写图片描述](http://img.blog.csdn.net/20170317184229998?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvV29vbHNleXl5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
-### Principle:
+#### Principle:
 
 - Different abstraction is needed
 - Each layer should perform a well-defined function
@@ -181,7 +183,7 @@ Internet
 - Minimize 层与层的划分要使得跨越接口的信息流 
 - 层数要足够多，使得不同功能不会混在同一层中 但层数又不能太多 使得体系机构太过庞大
  
-### 各层
+#### 各层
 Physical layer:关注在一条通信信道上传输原始比特
 
 - 确保收到的比特是准确的
@@ -218,7 +220,7 @@ Presentation layer: concerned with the syntax and semantics of the information
 
 Application layer
  
-## TCP/IP
+### TCP/IP
  ![这里写图片描述](http://img.blog.csdn.net/20170317184802689?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvV29vbHNleXl5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
  
 Host-to-network layer
@@ -238,11 +240,11 @@ Application layer
 ![这里写图片描述](http://img.blog.csdn.net/20170317184854179?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvV29vbHNleXl5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
  
  
-## 混合模型
+### 混合模型
  ![这里写图片描述](http://img.blog.csdn.net/20170317184913899?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvV29vbHNleXl5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
  
  
-### Comparison
+#### Comparison
 Similarities 
 
 - Protocols stack 都以协议栈概念为基础
