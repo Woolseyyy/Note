@@ -56,7 +56,7 @@
 移动商务(不如说移动支付 代替信用卡 美国人2000年提出的概念)
 传感器网络
 可穿戴计算机
- ---------
+
 # Network Hardware
 
 ## Transmission technology
@@ -125,8 +125,8 @@ Internet
 	- 网络 利用单一技术相互连接在一起的计算机集合
 	- 互联网 技术不同、运营者不同的网络连接在一起
 
------------------------------
-#Network Software
+
+# Network Software
 
  ![这里写图片描述](http://img.blog.csdn.net/20170317183530114?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvV29vbHNleXl5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
@@ -168,8 +168,8 @@ Internet
 - 服务和协议的关系
 ![这里写图片描述](http://img.blog.csdn.net/20170317184036464?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvV29vbHNleXl5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
----------------------
-#Reference models
+
+# Reference models
 
 ## OSI reference model
  ![这里写图片描述](http://img.blog.csdn.net/20170317184229998?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvV29vbHNleXl5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
@@ -180,8 +180,8 @@ Internet
 - 每一层的功能选择要像国际标准化目标看齐
 - Minimize 层与层的划分要使得跨越接口的信息流 
 - 层数要足够多，使得不同功能不会混在同一层中 但层数又不能太多 使得体系机构太过庞大
-
-###各层
+ 
+### 各层
 Physical layer:关注在一条通信信道上传输原始比特
 
 - 确保收到的比特是准确的
@@ -218,7 +218,7 @@ Presentation layer: concerned with the syntax and semantics of the information
 
 Application layer
  
-##TCP/IP
+## TCP/IP
  ![这里写图片描述](http://img.blog.csdn.net/20170317184802689?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvV29vbHNleXl5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
  
 Host-to-network layer
@@ -238,11 +238,11 @@ Application layer
 ![这里写图片描述](http://img.blog.csdn.net/20170317184854179?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvV29vbHNleXl5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
  
  
-##混合模型
+## 混合模型
  ![这里写图片描述](http://img.blog.csdn.net/20170317184913899?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvV29vbHNleXl5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
  
  
-###Comparison
+### Comparison
 Similarities 
 
 - Protocols stack 都以协议栈概念为基础
